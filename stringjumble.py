@@ -32,5 +32,6 @@ letterSplit=list(text)
 
 #text jumbles
 print(text [::-1])
-print(wordSplit [::-1])
+x = (wordSplit [::-1])
+print(' '.join(x))
 print(" ".join(word[::-1] for word in wordSplit))
